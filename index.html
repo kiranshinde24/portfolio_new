@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiran Shinde — Java Full Stack Developer</title>
+<meta name="description" content="Kiran Shinde, Java full stack developer in Mumbai. Spring Boot, React, MySQL and applied AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('t');if(t)document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="bar" id="bar"></div>
+
+<header class="nav" id="nav"><div class="wrap nav-in">
+  <a href="#top" class="logo">KS<span>.</span></a>
+  <nav id="links"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+  <div class="tools">
+    <button class="kbd mono" id="openCmd" aria-label="Open command menu">Search <kbd>Ctrl K</kbd></button>
+    <button class="icon" id="theme" aria-label="Toggle light or dark theme">◐</button>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <section class="hero" id="top">
+    <div>
+      <p class="mono eyebrow"><i class="dot"></i> Open to Software &amp; Full-Stack roles · Mumbai, India</p>
+      <h1>Kiran Shinde<span>.</span></h1>
+      <p class="role">I build <span id="type"></span><i class="caret"></i></p>
+      <p class="lead">Java full stack developer who ships secure, production-style systems: Spring Boot and React end to end, with a practical streak of applied AI.</p>
+      <div class="cta">
+        <a class="btn" href="#work">See my work</a>
+        <a class="btn ghost" href="assets/Kiran_Shinde_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+      </div>
+    </div>
+    <div class="photo">
+      <div class="frame"><span class="mono">KS</span><img src="assets/photo.jpg" alt="Portrait of Kiran Shinde" onerror="this.remove()"></div>
+      <a class="badge b1 mono" href="#credentials">AWS Certified</a>
+      <a class="badge b2 mono" href="#credentials">IEEE Xplore author</a>
+    </div>
+  </section>
+
+  <div class="stats reveal">
+    <div><b data-n="3">0</b><span>user roles secured with JWT + RBAC</span></div>
+    <div><b data-n="4">0</b><span>API domains built at Endava</span></div>
+    <div><b data-n="21000" data-s="+">0</b><span>image pairs benchmarked</span></div>
+    <div><b id="repos" data-n="26">0</b><span>public GitHub repos</span></div>
+  </div>
+
+  <section id="about">
+    <h2 class="reveal"><span class="mono">01</span> About</h2>
+    <div class="about reveal">
+      <p>I’m a Computer Engineering graduate from MIT Academy of Engineering, Pune, who likes the whole path from database schema to polished interface. At Endava I built REST APIs, security and React components for an insurance platform, and in my own projects I add machine learning where it genuinely helps.</p>
+      <ul class="now">
+        <li><span class="mono">Based in</span> Mumbai, India</li>
+        <li><span class="mono">Focus</span> Spring Boot, React, MySQL</li>
+        <li><span class="mono">Also</span> Applied AI with Python</li>
+        <li><span class="mono">Looking for</span> Software / Full-Stack roles</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2 class="reveal"><span class="mono">02</span> Selected work</h2>
+    <div class="filters reveal" id="filters" role="group" aria-label="Filter projects">
+      <button class="on" data-f="all">All</button><button data-f="fullstack">Full-stack</button><button data-f="ai">AI / ML</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <h3 class="sub reveal">Latest on GitHub <small class="mono" id="ghnote"></small></h3>
+    <ul class="gh reveal" id="gh"></ul>
+  </section>
+
+  <section id="experience">
+    <h2 class="reveal"><span class="mono">03</span> Experience &amp; education</h2>
+    <div class="timeline">
+      <div class="job reveal">
+        <div class="when mono">Jan – May 2026</div>
+        <div>
+          <h3>Junior Developer Intern · Endava, Bangalore</h3>
+          <p class="proj">Insurance Policy Management System: a role-based platform for admins, agents and customers.</p>
+          <ul>
+            <li>Engineered Spring Boot REST APIs across four domains (customers, policies, payments, claims) and verified each endpoint in Postman.</li>
+            <li>Secured the platform with JWT authentication and Spring Security RBAC for three roles.</li>
+            <li>Modeled Hibernate/JPA entities on a normalized MySQL schema and wrote optimized SQL for policy, payment and claim workflows.</li>
+            <li>Built reusable React.js components; worked in Agile/Scrum through code reviews, debugging, testing and documentation.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job reveal">
+        <div class="when mono">2022 – 2026</div>
+        <div>
+          <h3>B.Tech, Computer Engineering · MIT Academy of Engineering, Pune</h3>
+          <p class="proj">CGPA 9.0/10 · Super 30 program · CodeChef Club Management Team.</p>
+          <p class="proj">Publication: <em>Stable Diffusion with LLM Prompt Engineering and CLIP Filtering for Fine-Grained Image Generation</em> (IEEE Xplore).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="credentials">
+    <h2 class="reveal"><span class="mono">04</span> Credentials</h2>
+    <div class="creds">
+      <article class="cred reveal">
+        <span class="mono tag">Certification</span>
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <p>Foundational knowledge of AWS cloud services, security, pricing and architecture.</p>
+        <dl class="meta mono">
+          <div><dt>Issued</dt><dd>May 10, 2026</dd></div>
+          <div><dt>Valid until</dt><dd>May 10, 2029</dd></div>
+          <div><dt>Validation no.</dt><dd>33729fe729cc421cb3433b51d3238891</dd></div>
+        </dl>
+        <p class="acts"><a href="https://aws.amazon.com/verification" target="_blank" rel="noopener">Verify on AWS ↗</a><a href="assets/AWS_Certified_Cloud_Practitioner.pdf" target="_blank" rel="noopener">View certificate ↗</a></p>
+      </article>
+      <article class="cred reveal">
+        <span class="mono tag">Publication · IEEE Xplore</span>
+        <h3>Stable Diffusion with LLM Prompt Engineering and CLIP Filtering for Fine-Grained Image Generation</h3>
+        <p>Research paper on generating fine-grained images by combining Stable Diffusion, LLM-engineered prompts and CLIP-based filtering.</p>
+        <p class="acts"><a href="https://ieeexplore.ieee.org/author/280586419587211" target="_blank" rel="noopener">Read on IEEE Xplore ↗</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="reveal"><span class="mono">05</span> Toolbox</h2>
+    <div class="tabs reveal" id="tabs" role="tablist"></div>
+    <ul class="chips" id="chips"></ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="reveal"><span class="mono">06</span> Contact</h2>
+    <div class="cgrid">
+      <div class="reveal">
+        <p class="big">Let’s build something <em>dependable</em>.</p>
+        <p class="social mono">
+          <button class="linklike" id="copy">Copy email</button>
+          <a href="https://www.linkedin.com/in/kiran-shinde24" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/kiranshinde24" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="tel:+918779686047">+91 87796 86047</a>
+        </p>
+      </div>
+      <form id="form" class="reveal">
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        <label>Message<textarea name="message" rows="4" required></textarea></label>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot mono"><span>© <span id="yr"></span> Kiran Shinde · Mumbai, India</span><a href="#top">Back to top ↑</a></footer>
+
+<dialog id="modal"><div class="box" id="mbody"></div></dialog>
+<dialog id="cmd"><div class="box pal">
+  <input id="q" placeholder="Jump to a section or run an action…" autocomplete="off" aria-label="Command search">
+  <ul id="res" role="listbox"></ul>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
